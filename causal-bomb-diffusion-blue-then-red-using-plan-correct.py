@@ -1,6 +1,5 @@
 import sys
 
-
 # put Python ACT-R working dir here.
 sys.path.append('C:/Users/nh_or/Documents/cogmodelling/CCMSuite3-master/CCMSuite3-master')
 
