@@ -1,6 +1,11 @@
 # causal-models-in-python_actr
 
-This repo holds four ACT-R models for causal reasoning over a bomb diffusion task.
+This repo holds five ACT-R models for causal reasoning over a bomb diffusion task.
+
+## Prerequisite Downloads/Installs
+
+You must have Python ACT-R to run the models. Change line 4 to match the path to your ACT-R directory.
+For Python ACT-R, go here: https://github.com/CarletonCognitiveModelingLab/python_actr
 
 ## Causal Models:
 
