@@ -32,4 +32,4 @@ The causal model in DM is stratified using Pearl's Ladder of Causation for conve
 Each model uses the same design for Kantian Declarative Memory (KDM).
 KDM is built with declarative memory chunks that use key:value pairs for each slot in every chunk.
 In KDM, each key represents a Kantian category, and each value is designated to that category.
-All relations in declarative memory are defined using terms from the categorical structure built in KDM. An alternate design to KDM is plausible, and several Kantian categories are still missing, because they were unnecessary for the causal models listed above.
+All relations in declarative memory are defined using terms from the categorical structure built in KDM. Alternate designs to KDM are plausible. Several Kantian categories are still missing, because they were unnecessary for the causal models listed above.
