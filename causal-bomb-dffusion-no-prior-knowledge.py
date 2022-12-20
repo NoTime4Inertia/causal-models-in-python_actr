@@ -163,21 +163,21 @@ class MyAgent(ACTR):
     ## Only KDMs required for causal reasoning in this task are present. 
 
     # Quality ('state') KDM
-    DM.add('KDM:is not:not') # real yes, on, 1
+    DM.add('KDM:is is:is not:isnot') # real yes, on, 1
     #DM.add('KDM:can') # potential yes, on, 1
 
     # Negation KDM
-    DM.add('KDM:not') # negates
+    DM.add('KDM:not is:not') # negates
 
     # Not Class
-    DM.add('KDM:isnot not:is')
+    DM.add('KDM:isnot is:isnot not:is')
 
     # Classification KDM
-    DM.add('KDM:a is:is is:a a:a') # qualities are collected to classify/identify
+    DM.add('KDM:a is:a a:a') # qualities are collected to classify/identify
     # EXAMPLE: DM.add(a:cat is:furry is:whiskered is:cute)
 
     # Categorical KDM
-    DM.add('KDM:isa is:is is:a a:is') # objects used as qualities to categorize
+    DM.add('KDM:isa is:isa') # objects used as qualities to categorize
 
     # Quantity KDM
     # EXAMPLE: DM.add('all') or most, half, some, none, etc.
@@ -186,16 +186,16 @@ class MyAgent(ACTR):
     # EXAMPLE: DM.add('here') or there, left, right, up, down, under, over
 
     # Action KDM
-    DM.add('KDM:do is:a is:then a:do')
+    DM.add('KDM:do is:do not:donot')
 
     # Inaction KDM
-    DM.add('KDM:donot is:then not:do')
+    DM.add('KDM:donot is:donot not:do')
 
     # Temporal KDM
-    DM.add('KDM:then is:then a:then then:is')
+    DM.add('KDM:then is:then')
 
     # State Change KDM
-    DM.add('KDM:isthen is:then a:isthen then:is')
+    DM.add('KDM:isthen is:isthen')
 
 
 
