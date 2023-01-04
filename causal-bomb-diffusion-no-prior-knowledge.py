@@ -263,8 +263,8 @@ class MyAgent(ACTR):
     DM.add('interv_a:cut is:uncut action:cut isthen:cut')
 
     # Intervention Knowledge of Action on Objects at Method Level
-    DM.add('interv_m:expose_red_wire is:unexposed cut:red_wire isthen:exposed')
-    DM.add('interv_m:expose_blue_wire is:unexposed cut:blue_wire isthen:exposed')
+    DM.add('interv_m:expose_red_wire is:unexposed expose:red_wire isthen:exposed')
+    DM.add('interv_m:expose_blue_wire is:unexposed expose:blue_wire isthen:exposed')
     DM.add('interv_m:cut_red_wire is:uncut cut:red_wire isthen:cut')
     DM.add('interv_m:cut_blue_wire is:uncut cut:blue_wire isthen:cut')
 
